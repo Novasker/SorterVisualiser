@@ -12,12 +12,13 @@
         <ComboBox Name="AlgorithmSelector" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="10,15,0,0">
             <ComboBoxItem Content="Bubble Sort" IsSelected="True"/>
             <ComboBoxItem Content="Selection Sort"/>
+            <ComboBoxItem Content="Merge Sort"/>
         </ComboBox>
         
         <TextBox Name="TextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="170" Height="30" Margin="220, 10, 0, 0"></TextBox>
         
         <Button Content="Iniciar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="30" Margin="400,10,0,0" Click="BtnStart_Click"/>
-        <Button Content="Pausar/Resumir" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="30" Margin="510,10,0,0"/>
+        <Button Content="Pausar/Resumir" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="30" Margin="510,10,0,0" Click="BtnPause_Click"/>
         <Button Content="Avançar Etapa" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="30" Margin="620,10,0,0"/>
 
     </Grid>
