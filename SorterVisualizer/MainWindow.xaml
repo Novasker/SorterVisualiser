@@ -1,0 +1,24 @@
+﻿<Window x:Class="SorterVisualizer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SorterVisualizer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Canvas Name="CanvasMain" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="780" Height="350" Margin="10,10,0,10"/>
+        
+        <ComboBox Name="AlgorithmSelector" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="10,15,0,0">
+            <ComboBoxItem Content="Bubble Sort" IsSelected="True"/>
+            <ComboBoxItem Content="Selection Sort"/>
+        </ComboBox>
+        
+        <TextBox Name="TextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="170" Height="30" Margin="220, 10, 0, 0"></TextBox>
+        
+        <Button Content="Iniciar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="30" Margin="400,10,0,0" Click="BtnStart_Click"/>
+        <Button Content="Pausar/Resumir" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="30" Margin="510,10,0,0"/>
+        <Button Content="Avançar Etapa" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="30" Margin="620,10,0,0"/>
+
+    </Grid>
+</Window>
