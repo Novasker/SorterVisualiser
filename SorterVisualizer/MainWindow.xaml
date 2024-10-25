@@ -13,6 +13,11 @@
             <ComboBoxItem Content="Bubble Sort" IsSelected="True"/>
             <ComboBoxItem Content="Selection Sort"/>
             <ComboBoxItem Content="Merge Sort"/>
+            <ComboBoxItem Content="Quick Sort"/>
+            <ComboBoxItem Content="Insertion Sort"/>
+            <ComboBoxItem Content="Cocktail Shaker Sort"/>
+            <ComboBoxItem Content="Bogo Sort"/>
+            <ComboBoxItem Content="Miracle Sort"/>
         </ComboBox>
         
         <TextBox Name="TextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="170" Height="30" Margin="220, 10, 0, 0"></TextBox>
